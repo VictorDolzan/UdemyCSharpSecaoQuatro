@@ -1,0 +1,15 @@
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/CSharpSecaoQuatro
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/CSharpSecaoQuatro.deps.json
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/CSharpSecaoQuatro.runtimeconfig.json
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/CSharpSecaoQuatro.dll
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/ref/CSharpSecaoQuatro.dll
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/bin/Debug/net6.0/CSharpSecaoQuatro.pdb
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.csproj.AssemblyReference.cache
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.AssemblyInfoInputs.cache
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.AssemblyInfo.cs
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.csproj.CoreCompileInputs.cache
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.dll
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/ref/CSharpSecaoQuatro.dll
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.pdb
+/home/victor/Documents/Udemy/C# Completo Programação Orientada a objetos + Projetos/CSharpSecaoQuatro/obj/Debug/net6.0/CSharpSecaoQuatro.genruntimeconfig.cache
