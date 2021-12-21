@@ -19,7 +19,13 @@ namespace CSharpSecaoQuatro
            //PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
             //ExercicioEstoque.ExecutarExercicioEstoque();
             //ExerciciosFixacao.ExecutarExercicioImposto();
-            ExerciciosFixacao.ExecutarExercicioAluno();
+            //ExerciciosFixacao.ExecutarExercicioAluno();
+            //MembrosEstaticos.ExecutarExercicioCircunferenciaUm();
+            MembrosInstancia.ExecutarCalculadora();
+
+
+
+
 
         }
     }

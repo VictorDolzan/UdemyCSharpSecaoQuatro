@@ -12,7 +12,6 @@ namespace CSharpSecaoQuatro
         private string _StudentName;
         private double _Grades;
         public string StudentName { get; set; }
-
         public double Grades
         {
             get
@@ -20,7 +19,6 @@ namespace CSharpSecaoQuatro
                 return _Grades;
             }
         }
-
         public void CalcularNotas()
         {
             Console.WriteLine("Digite as três notas do aluno: ");
@@ -29,7 +27,6 @@ namespace CSharpSecaoQuatro
                 _Grades += double.Parse(Console.ReadLine());
             }
         }
-
         public void VerificarNotas()
         {
             if (_Grades < 60)

@@ -30,7 +30,6 @@ namespace CSharpSecaoQuatro
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + func1 );
 
-
         }
 
         public static void ExecutarExercicioAluno()
@@ -41,8 +40,7 @@ namespace CSharpSecaoQuatro
             Alex.StudentName = Console.ReadLine();
 
             Alex.CalcularNotas();
-            Alex.VerificarNotas();
-            
+            Alex.VerificarNotas();            
 
         }
     }
