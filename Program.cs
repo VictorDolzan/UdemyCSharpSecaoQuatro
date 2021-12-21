@@ -18,8 +18,8 @@ namespace CSharpSecaoQuatro
            // PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioPessoas();
            //PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
             //ExercicioEstoque.ExecutarExercicioEstoque();
-            ExerciciosFixacao.ExecutarExercicioImposto();
-
+            //ExerciciosFixacao.ExecutarExercicioImposto();
+            ExerciciosFixacao.ExecutarExercicioAluno();
 
         }
     }

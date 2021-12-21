@@ -32,5 +32,18 @@ namespace CSharpSecaoQuatro
 
 
         }
+
+        public static void ExecutarExercicioAluno()
+        {
+            Alunos Alex = new Alunos();
+
+            Console.Write("Nome do aluno: ");
+            Alex.StudentName = Console.ReadLine();
+
+            Alex.CalcularNotas();
+            Alex.VerificarNotas();
+            
+
+        }
     }
 }
