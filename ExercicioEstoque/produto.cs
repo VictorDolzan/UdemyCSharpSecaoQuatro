@@ -38,10 +38,11 @@ namespace CSharpSecaoQuatro
         }
         public void AdicionarProdutos(int quantidadeExterna)
         {
-            _quantidadeProduto += quantidadeExterna;
+            _quantidadeProduto += quantidadeExterna;            
         }
         public void RemoverProdutos(int quantidadeExterna)
         {
+            
             if (quantidadeExterna > _quantidadeProduto)
             {
                 Console.WriteLine("Valor Inválido!");
@@ -49,12 +50,23 @@ namespace CSharpSecaoQuatro
             }
             else
             {
-                _quantidadeProduto -= quantidadeExterna;
+                _quantidadeProduto -= quantidadeExterna;                
             }
         }
         public double ValorTotalEmEstoque()
         {
-            return _quantidadeProduto;
+            return _precoProduto * _quantidadeProduto;
+        }
+
+        public override string ToString()
+        {
+            return _nomeProduto
+             + ", R$" 
+             + _precoProduto.ToString("F2", CultureInfo.CurrentCulture)
+             + ", "
+             + _quantidadeProduto
+             + " unidades, Total R$"
+             + ValorTotalEmEstoque().ToString("F2", CultureInfo.CurrentCulture);
         }
 
     }

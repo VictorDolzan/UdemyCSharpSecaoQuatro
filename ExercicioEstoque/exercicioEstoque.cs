@@ -13,20 +13,28 @@ namespace CSharpSecaoQuatro
         {
            Produto prod1 = new Produto();                      
            
-           prod1.NomeProduto = "Produto 1";
-
+           Console.WriteLine("Entre com os dados do produto: ");
+           Console.WriteLine("Nome: ");
+           prod1.NomeProduto = Console.ReadLine();
            Console.WriteLine($"Digite o preço do {prod1.NomeProduto}: ");
            prod1.PrecoProduto = double.Parse(Console.ReadLine());
            Console.WriteLine($"Digite quantos produtos serão adicionados: ");
            prod1.AdicionarProdutos(int.Parse(Console.ReadLine()));
 
-           Console.WriteLine($"Quantidade do {prod1.NomeProduto} é: {prod1.ValorTotalEmEstoque()}"); 
+           Console.WriteLine("Dados do produto: " + prod1); 
            
-           Console.WriteLine($"Digite quantos produtos do {prod1.NomeProduto} serão removidos: ");
-           prod1.RemoverProdutos(int.Parse(Console.ReadLine()));
+           Console.WriteLine();
+           Console.Write($"Digite quantos produtos do {prod1.NomeProduto} serão adicionados: ");
+           prod1.AdicionarProdutos(int.Parse(Console.ReadLine()));
+           Console.WriteLine("Dados Atualizados: "+ prod1);
 
-           Console.WriteLine($"Quantidade do {prod1.NomeProduto} agora é: {prod1.ValorTotalEmEstoque()}");
-           Console.WriteLine($"Valor total do {prod1.NomeProduto} é R${prod1.PrecoProduto}");
+           Console.WriteLine();
+           Console.Write($"Digite quantos produtos do {prod1.NomeProduto} serão removidos: ");
+           prod1.RemoverProdutos(int.Parse(Console.ReadLine()));
+           Console.WriteLine("Dados Atualizados: "+ prod1);
+
+
+        
         }
     }
 }
