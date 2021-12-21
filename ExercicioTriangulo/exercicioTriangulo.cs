@@ -24,9 +24,20 @@ namespace CSharpSecaoQuatro
             y.LadoB = double.Parse(Console.ReadLine());
             y.LadoC = double.Parse(Console.ReadLine());
 
-            
-            Console.WriteLine("A área de X é: " + x.CalcularAreaTriangulo().ToString("F4"));
-            Console.WriteLine("A área de Y é: " + y.CalcularAreaTriangulo().ToString("F4"));
+            double areaX = x.CalcularAreaTriangulo();
+            double areaY = y.CalcularAreaTriangulo();
+
+            Console.WriteLine("A área de X é: " + areaX.ToString("F4"));
+            Console.WriteLine("A área de Y é: " + areaY.ToString("F4"));
+
+            if(areaX > areaY)
+            {
+                Console.WriteLine("Maior área é: X ");
+            }
+            else
+            {
+                Console.WriteLine("A maior área é: Y");
+            }
 
 
             

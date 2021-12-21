@@ -14,9 +14,9 @@ namespace CSharpSecaoQuatro
         public static void Main(string[] args)
         {
             //ExercicioSemOrientacaoObjeto.ExecutarExercicioSemOrientacaoObjeto();
-            //ExercicioTriangulo.ExecutarExercicioTriangulo();
+            ExercicioTriangulo.ExecutarExercicioTriangulo();
            // PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioPessoas();
-           PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
+           //PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
         }
     }
 }
