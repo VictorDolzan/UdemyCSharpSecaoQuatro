@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
+using CSharpSecaoQuatro.PrimeirosExercicios;
+
 namespace CSharpSecaoQuatro
 {
     class Program
@@ -12,7 +14,9 @@ namespace CSharpSecaoQuatro
         public static void Main(string[] args)
         {
             //ExercicioSemOrientacaoObjeto.ExecutarExercicioSemOrientacaoObjeto();
-            ExercicioTriangulo.ExecutarExercicioTriangulo();
+            //ExercicioTriangulo.ExecutarExercicioTriangulo();
+           // PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioPessoas();
+           PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
         }
     }
 }
