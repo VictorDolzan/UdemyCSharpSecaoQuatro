@@ -17,8 +17,8 @@ namespace CSharpSecaoQuatro
             //ExercicioTriangulo.ExecutarExercicioTriangulo();
            // PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioPessoas();
            //PrimeirosExercicios.PrimeirosExercicios.ExecutarExercicioFuncionarios();
-            ExercicioEstoque.ExecutarExercicioEstoque();
-
+            //ExercicioEstoque.ExecutarExercicioEstoque();
+            ExerciciosFixacao.ExecutarExercicioImposto();
 
 
         }
