@@ -37,10 +37,7 @@ namespace CSharpSecaoQuatro
             else
             {
                 Console.WriteLine("A maior área é: Y");
-            }
-
-
-            
+            }            
         }
     }
 }

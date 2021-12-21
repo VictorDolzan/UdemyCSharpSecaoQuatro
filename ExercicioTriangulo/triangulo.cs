@@ -12,17 +12,13 @@ namespace CSharpSecaoQuatro
         public double LadoA;
         public double LadoB;
         public double LadoC;
-
         private double _p;
-
-        private double _areaTriangulo;
-        
+        private double _areaTriangulo;        
         private double CalcularLadoP()
         {
             _p = (LadoA + LadoB + LadoC) / 2.0;
             return _p;
         }
-
         public double CalcularAreaTriangulo()
         {
             CalcularLadoP();
